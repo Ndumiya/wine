@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from '../components/Header'
+import AboutBody from '../components/AboutBody'
 
 const AboutUs = () => {
     return (
         <div>
-            <h1>AboutUs</h1>
             <Header/>
+            <AboutBody/>
             </div>
+
     )
 
 }

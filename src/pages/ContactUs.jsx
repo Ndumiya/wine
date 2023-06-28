@@ -1,11 +1,14 @@
 import React from 'react'
+
+import ContactBody from '../components/ContactBody'
 import Header from '../components/Header'
 
 const ContactUs = () => {
     return (
         <div>
-            <h1>ContactUs</h1>
             <Header/>
+            <ContactBody/>
+
         </div>
     )
 }

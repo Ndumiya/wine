@@ -12,6 +12,9 @@ import {
 
 import Register from './pages/Register';
 import Login from './pages/Login';
+import ProductView from './components/ProductView';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 
 const router = createBrowserRouter([
@@ -20,12 +23,24 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
+    path: "/contact",
+    element: <ContactUs />,
+  },
+  {
+    path: "/about",
+    element: <AboutUs/>,
+  },
+  {
     path: "/register",
     element: <Register />,
   },
   {
     path: "/login",
     element: <Login/>,
+  },
+  {
+    path: "/menu/:title",
+    element: <ProductView/>,
   },
 ]);
 

@@ -1,22 +1,22 @@
 .cards-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 250px 250px 250px 250px;
     gap: 10px;
     padding: -1.5px;
-    margin-right: 5x;
+    margin-left: -70rem;
+    margin-top: 50px;
    
 }
 
 .card {
     margin-bottom: 15x;
-    border: 5px solid blue;
+    border: 5px solid Grey;
 }
 
 .card>img {
     width: 150px;
     border: none;
-    background-color: white;
-    box-shadow: 0 1.5rem 1rem  blue;
+    box-shadow: 0 1.5rem 1rem  Grey;
 }
 
 
@@ -26,15 +26,8 @@
     
    
 }
-
-.dropdown-menu.show
-{
-    
-    width: 50rem;
-    box-shadow: 0 1.5rem 1rem blue;
-}
 Button.variant{
-    background: blue;
+    background: Grey;
 }
 .form-control{
     display: block;
@@ -43,9 +36,9 @@ Button.variant{
     font-weight: 76px;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
+
     background-clip: padding-box;
-    border: 1px solid  blue;
+    border: 1px solid  Grey;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -56,4 +49,12 @@ Button.variant{
     /* position: absolute; */
   
 }
-
+.dropdown-menu.show
+{
+  background-color: transparent;
+  border: none;
+}
+.NavMenu.dropdown-item
+{
+    background-color: transparent;
+}

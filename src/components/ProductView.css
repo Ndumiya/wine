@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+.card-body
+{
+  align-items: center;
+
+}
+.card
+{
+  border: none;
+}
+.card-body
+{
+  margin-left: 45%;
+}
+.card-title{
+  position: relative;
+  margin-left: -5rem;
+}

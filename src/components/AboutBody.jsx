@@ -5,7 +5,7 @@ function AboutBody() {
   return (
     <div>
       
-      qwerty
+      qwertyyy
 
     </div>
   )

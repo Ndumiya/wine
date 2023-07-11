@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client'
 import Home from './pages/Home'
 import './index.css'
 
+import ContextState from './context/contextStates'
+
 
 import {
   createBrowserRouter,
@@ -48,4 +50,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>,
+
+  <ContextState>
+    <app/>
+  </ContextState>
 )
